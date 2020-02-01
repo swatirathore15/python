@@ -1,0 +1,11 @@
+Months = set(["January", "February", "March", "April", "May", "June"])
+print("\nprinting the original set ... ")
+print(Months)
+print("\nRemoving some months from the set...")
+Months.discard("January")
+Months.discard("May")
+print("\nPrinting the modified set...")
+print(Months)
+print("\nlooping through the set elements ... ")
+for i in Months:
+     print(i)
